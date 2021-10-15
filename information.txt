@@ -1,0 +1,8 @@
+font: monstserrat
+Thin 100
+Extra-light 200
+Light 300
+Regular 400
+Bold 700
+
+slidercolor:#ffe1bd

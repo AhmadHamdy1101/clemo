@@ -1,0 +1,125 @@
+.work-cont{
+    width: 100%;
+    position: relative;
+}
+.work-cont .container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.work-cont .container h1{
+    font-family: var(--main-font);
+    font-size: 50px;
+    font-weight: 200;
+}
+
+
+.work-cont ul {
+    margin-top: 50px
+}
+
+.work-cont ul li {
+    display: inline-block;
+    border:none;
+    color: #A7A7A7;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 30px;
+    font-family: var(--main-font);
+}
+@media screen and (max-width:767px) {
+    .work-cont ul li {
+        font-size: 23px;
+    }
+    
+}
+.work-cont ul li.selected {
+
+    color: #000;
+}
+
+.work-cont .gallery {
+    margin-top: 50px;
+    overflow: hidden
+}
+
+.work-cont .gallery .row > div:nth-child(2) {
+    margin-right: 1%;
+    margin-left: 1%
+}
+
+.work-cont .gallery .row > div {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 12vh;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.work-cont .gallery .row > div img {
+    width: calc(100% - 60%);
+}
+@media screen and (max-width:767px) {
+    .work-cont .gallery .row > div img {
+        width: 100%;
+    }
+    
+}
+.work-cont .gallery .row .mix-txt{
+    width: 50%;
+}
+@media screen and (max-width:767px) {
+    .work-cont .gallery .row .mix-txt{
+        width: 100%;
+    }
+}
+
+.work-cont .gallery .row .mix-txt h1{
+    font-weight: 700;
+    font-size: 47px;
+    margin: 0px 0px 20px 0px;}
+    @media screen and (max-width:767px) {
+        .work-cont .gallery .row .mix-txt h1{
+            font-size: 34px;
+            margin: 22px 0px 20px 0px;}
+    }
+    .work-cont .gallery .row .mix-txt h4{
+        font-weight: 300;
+
+    }
+    .line{
+        width: 10vh;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 30px;
+    }
+.work-cont .gallery .row .mix-txt p{
+    color: #989898;
+    line-height: 25px;
+    margin-bottom: 51px;
+}
+.work-cont .gallery .row .mix-txt a{
+    color: #000;
+    padding: 10px 20px;
+    border: 1px solid #989898;
+    border-radius: 30px;
+    font-weight: 700;
+    transition: 0.5s all ease-in-out;
+}
+.work-cont .gallery .row .mix-txt a:hover {
+    border: 1px solid #000;}
+
+
+
+
+.work-cont .shuffle li {
+    cursor: pointer
+}
+
+.our-projects .mix {
+    display: none
+}

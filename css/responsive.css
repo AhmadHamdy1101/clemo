@@ -1,0 +1,35 @@
+/*variables*/
+:root{
+    --main-font:'Montserrat', sans-serif;
+    --slider-color: #ffe1bd;
+}
+/* navbar */
+
+@keyframes scale {
+    form{ transform: scaleX(0); }
+    to{ transform: scaleX(1);}    
+}
+
+@media screen and (max-width:500px) {
+    header .container nav {
+        flex-direction: column;
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        background-color: #fff;
+        justify-content: space-between;
+        z-index: 3;
+        top: 90px;
+        right: 70px;
+        padding: 63px 0px;
+        display: none;
+        box-shadow: 0px 0px 17px 0px rgb(0 0 0 / 50%);
+        animation-name: scale;
+        animation-duration: 1s;
+        transition: 1s all ease-in-out;
+    
+    }
+    header .container .menu-re{
+        display:block;
+    }
+}
