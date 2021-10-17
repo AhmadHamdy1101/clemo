@@ -192,6 +192,12 @@ display: flex;
       justify-content: space-between;
 
   }
+@media screen and (max-width:768px){
+.service .container .service-1{
+      flex-direction:column;
+
+}}
+
   .service .container  .services-img{
       width: 500px;
       height: 500px;
@@ -252,6 +258,11 @@ display: flex;
       margin: 20vh 0px;
       
   }
+@media screen and (max-width:768px){
+.service .container .service-2{
+      flex-direction:column;
+
+}}
   /*our works*/
 
   .ourworks{
