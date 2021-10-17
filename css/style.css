@@ -204,6 +204,11 @@ display: flex;
       position: relative;
       background-color: #989898;
   }
+@media screen and (max-width:768px){
+.service .container .services-img{
+      width:100%;
+
+}}
   .service .container  .services-img img{
       width: 100%;
       height: 100%;
@@ -212,6 +217,11 @@ display: flex;
   .service .container  .services-txt{
       width: 40%;
   }
+@media screen and (max-width:768px){
+.service .container .services-txt{
+      width:100%;
+
+}}
   .service .container  .services-txt h1{
       font-weight: 700;
       font-size: 47px;
